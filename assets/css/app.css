@@ -8,6 +8,7 @@ body {
     padding-bottom: 40px;
     color: #5a5a5a;
     background-color: #eee;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -107,7 +108,7 @@ h3 {
 }
 
 .logo {
-    background-image: url("/assets/images/logo/logo-header_0_0.png");
+    background-image: url("https://fredyteheranto.github.io/uniandes-front/assets/images/logo/logo-header_0_0.png");
     background-repeat: no-repeat;
     background-position: 9px 2px;
     width: 140px;
