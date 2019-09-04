@@ -1,0 +1,249 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    background-color: #eee;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+h1 {
+    background: #FFDC00;
+    color: #000;
+}
+
+.navbar {
+    /* height: 74px; */
+    padding-top: 0px;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #FFDC00;
+}
+
+.navbar-header {
+    margin-left: 50px;
+}
+
+.center h2,
+.center h4,
+.center h3 {
+    text-align: center;
+    color: #000;
+}
+
+.carousel-caption {
+    text-align: left;
+    text-shadow: none;
+}
+
+.noteslide {
+    width: 250px;
+    font-size: 13px !important;
+}
+
+.buttonslide {
+    float: right;
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 11px;
+    font-size: 30px;
+    color: #000;
+    border-bottom: 2px solid #FFDC00 !important;
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    height: 74px;
+    line-height: 40px;
+}
+
+.news {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.limnenu li {
+    height: 74px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.limnenu li input {
+    margin-top: 13px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+#navbar {
+    float: right;
+}
+
+.logo {
+    background-image: url("/assets/images/logo/logo-header_0_0.png");
+    background-repeat: no-repeat;
+    background-position: 9px 2px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 30px !important;
+}
+
+.black {
+    background-color: #000;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: #080808;
+}
+
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper>.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner>.item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.navbar {
+    border: none;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
